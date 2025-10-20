@@ -9,6 +9,15 @@
     <description>Rank maçları &amp; sohbet! Katılmak isteyenler için Discord linki profilde.</description>
   </stream>
 
+  <stream platform="YouTube" category="Variety">
+    <title>AlphaGamerTR Kanal Tanıtımı</title>
+    <streamer>AlphaGamerTR</streamer>
+    <thumbnail>https://img.youtube.com/vi/efgh5678/hqdefault.jpg</thumbnail>
+    <embed></embed>
+    <channel>https://www.youtube.com/channel/UC1234567890ABCDE</channel>
+    <description>AlphaGamerTR’in önceki yayınlarının kaydı &amp; içerik tanıtımı.</description>
+  </stream>
+
   <stream platform="Twitch" category="Just Chatting">
     <title>Gece Sohbeti</title>
     <streamer>NightOwl</streamer>
@@ -16,5 +25,41 @@
     <embed>https://player.twitch.tv/?channel=nightowl&amp;parent=seninsite.com</embed>
     <channel>https://twitch.tv/nightowl</channel>
     <description>Gece sohbeti &amp; müzik keyfi</description>
+  </stream>
+
+  <stream platform="Kick" category="IRL">
+    <title>Şehirde Canlı Yayın!</title>
+    <streamer>CanliAdam</streamer>
+    <thumbnail>https://cdn.kick.com/thumbnails/canliadam.jpg</thumbnail>
+    <embed>https://player.kick.com/canliadam</embed>
+    <channel>https://kick.com/canliadam</channel>
+    <description>İstanbul sokaklarında canlı yayın</description>
+  </stream>
+
+  <stream platform="NimoTV" category="Mobile Gaming">
+    <title>Mobile Legends Rank Push</title>
+    <streamer>GGNimo</streamer>
+    <thumbnail>https://example.com/nimo_thumb.jpg</thumbnail>
+    <embed>https://www.nimo.tv/live/123456</embed>
+    <channel>https://www.nimo.tv/ggnimo</channel>
+    <description>Mobile Legends canlı yayınları her akşam</description>
+  </stream>
+
+  <stream platform="Trovo" category="Sandbox">
+    <title>Minecraft Adventure</title>
+    <streamer>AquaSoul</streamer>
+    <thumbnail>https://example.com/trovo_thumb.jpg</thumbnail>
+    <embed>https://trovo.live/embed/player?streamer=AquaSoul</embed>
+    <channel>https://trovo.live/AquaSoul</channel>
+    <description>Minecraft maceraları &amp; yaratıcı oyunlar</description>
+  </stream>
+
+  <stream platform="DLive" category="Strategy">
+    <title>Civilization VI Maraton</title>
+    <streamer>StrategyKing</streamer>
+    <thumbnail>https://example.com/dlive_thumb.jpg</thumbnail>
+    <embed>https://dlive.tv/embed/StrategyKing</embed>
+    <channel>https://dlive.tv/StrategyKing</channel>
+    <description>Strateji oyunları için Civilization VI maratonu</description>
   </stream>
 </streams>
