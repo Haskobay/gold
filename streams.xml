@@ -14,7 +14,7 @@
   </stream>
 
   <!-- YouTube kanal linki (offline veya genel kanal tanıtımı) -->
-  <stream platform="YouTube" live="false" category="Variety">
+  <stream platform="YouTube" live="true" category="Variety">
     <title>AlphaGamerTR Kanal Tanıtımı</title>
     <streamer>AlphaGamerTR</streamer>
     <thumbnail>https://img.youtube.com/vi/efgh5678/hqdefault.jpg</thumbnail>
