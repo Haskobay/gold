@@ -1,52 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<streams>
-    <!-- YOUTUBE UC KANALI -->
-    <stream>
-        <id>1</id>
-        <platform>youtube</platform>
-        <title>YouTube UC Kanalı</title>
-        <channel>UC9iME25kp7TP1j9WW0fva3w</channel>
-        <uc_code>UC9iME25kp7TP1j9WW0fva3w</uc_code>
-        <is_live>true</is_live>
-    </stream>
+<?xml version="1.0" encoding="utf-8"?>
+<streams updated="2025-10-20">
 
-    <!-- YOUTUBE EMBED VİDEO -->
-    <stream>
-        <id>2</id>
-        <platform>youtube</platform>
-        <title>YouTube Embed Video</title>
-        <channel>Video Kanalı</channel>
-        <embed_url>https://www.youtube.com/embed/jNQXAC9IVRw</embed_url>
-        <is_live>false</is_live>
-    </stream>
+  <!-- YouTube canlı embed -->
+  <stream platform="YouTube" live="true" category="FPS">
+    <title>Valorant Turnuvası - Canlı Yayın</title>
+    <streamer>AlphaGamerTR</streamer>
+    <thumbnail>https://img.youtube.com/vi/abcd1234/hqdefault.jpg</thumbnail>
+    <!-- Canlı embed -->
+    <embed>https://www.youtube.com/embed/live_stream?channel=UC1234567890ABCDE</embed>
+    <!-- Kanal sayfası -->
+    <channel>https://www.youtube.com/channel/UC1234567890ABCDE</channel>
+    <description>Rank maçları ve sohbet! Katılmak isteyenler için Discord linki profilde.</description>
+  </stream>
 
-    <!-- TWITCH -->
-    <stream>
-        <id>3</id>
-        <platform>twitch</platform>
-        <title>Twitch Canlı</title>
-        <channel>shroud</channel>
-        <embed_url>https://player.twitch.tv/?channel=shroud</embed_url>
-        <is_live>true</is_live>
-    </stream>
+  <!-- YouTube kanal linki (offline veya genel kanal tanıtımı) -->
+  <stream platform="YouTube" live="false" category="Variety">
+    <title>AlphaGamerTR Kanal Tanıtımı</title>
+    <streamer>AlphaGamerTR</streamer>
+    <thumbnail>https://img.youtube.com/vi/efgh5678/hqdefault.jpg</thumbnail>
+    <!-- Embed yok, sadece kanal sayfası -->
+    <embed></embed>
+    <channel>https://www.youtube.com/channel/UC1234567890ABCDE</channel>
+    <description>AlphaGamerTR’in önceki yayınlarının kaydı ve içerik tanıtımı.</description>
+  </stream>
 
-    <!-- KICK -->
-    <stream>
-        <id>4</id>
-        <platform>kick</platform>
-        <title>Kick Canlı Yayın</title>
-        <channel>xqc</channel>
-        <embed_url>https://player.kick.com/xqc</embed_url>
-        <is_live>true</is_live>
-    </stream>
+  <!-- Twitch -->
+  <stream platform="Twitch" live="true" category="Just Chatting">
+    <title>Gece Sohbeti + Reaksiyon Yayını</title>
+    <streamer>NightOwl</streamer>
+    <thumbnail>https://static-cdn.jtvnw.net/previews-ttv/live_user_nightowl-640x360.jpg</thumbnail>
+    <embed>https://player.twitch.tv/?channel=nightowl&parent=seninsite.com</embed>
+    <channel>https://twitch.tv/nightowl</channel>
+    <description>Gece sohbeti ve müzik keyfi 🎧</description>
+  </stream>
 
-    <!-- KICK 2 -->
-    <stream>
-        <id>5</id>
-        <platform>kick</platform>
-        <title>Kick Gaming</title>
-        <channel>adinross</channel>
-        <embed_url>https://player.kick.com/adinross</embed_url>
-        <is_live>true</is_live>
-    </stream>
+  <!-- Kick -->
+  <stream platform="Kick" live="true" category="IRL">
+    <title>Şehirde canlı yayın!</title>
+    <streamer>CanliAdam</streamer>
+    <thumbnail>https://cdn.kick.com/thumbnails/canliadam.jpg</thumbnail>
+    <embed>https://player.kick.com/canliadam</embed>
+    <channel>https://kick.com/canliadam</channel>
+    <description>İstanbul sokaklarında canlı yayın 🚶‍♂️</description>
+  </stream>
+
 </streams>
