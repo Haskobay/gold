@@ -6,23 +6,14 @@
     <thumbnail>https://img.youtube.com/vi/abcd1234/hqdefault.jpg</thumbnail>
     <embed>https://www.youtube.com/embed/live_stream?channel=UC1234567890ABCDE</embed>
     <channel>https://www.youtube.com/channel/UC1234567890ABCDE</channel>
-    <description>Rank maçları &amp; sohbet! Katılmak isteyenler için Discord linki profilde.</description>
-  </stream>
-
-  <stream platform="YouTube" category="Variety">
-    <title>AlphaGamerTR Kanal Tanıtımı</title>
-    <streamer>AlphaGamerTR</streamer>
-    <thumbnail>https://img.youtube.com/vi/efgh5678/hqdefault.jpg</thumbnail>
-    <embed></embed>
-    <channel>https://www.youtube.com/channel/UC1234567890ABCDE</channel>
-    <description>AlphaGamerTR’in önceki yayınlarının kaydı &amp; içerik tanıtımı.</description>
+    <description>Rank maçları &amp; sohbet!</description>
   </stream>
 
   <stream platform="Twitch" category="Just Chatting">
     <title>Gece Sohbeti</title>
     <streamer>NightOwl</streamer>
     <thumbnail>https://static-cdn.jtvnw.net/previews-ttv/live_user_nightowl-640x360.jpg</thumbnail>
-    <embed>https://player.twitch.tv/?channel=nightowl&amp;parent=seninsite.com</embed>
+    <embed>https://player.twitch.tv/?channel=nightowl&parent=seninsite.com</embed>
     <channel>https://twitch.tv/nightowl</channel>
     <description>Gece sohbeti &amp; müzik keyfi</description>
   </stream>
@@ -31,18 +22,9 @@
     <title>Şehirde Canlı Yayın!</title>
     <streamer>CanliAdam</streamer>
     <thumbnail>https://cdn.kick.com/thumbnails/canliadam.jpg</thumbnail>
-    <embed>https://player.kick.com/canliadam</embed>
+    <embed>https://kick.com/embed/live/canliadam</embed>
     <channel>https://kick.com/canliadam</channel>
     <description>İstanbul sokaklarında canlı yayın</description>
-  </stream>
-
-  <stream platform="NimoTV" category="Mobile Gaming">
-    <title>Mobile Legends Rank Push</title>
-    <streamer>GGNimo</streamer>
-    <thumbnail>https://example.com/nimo_thumb.jpg</thumbnail>
-    <embed>https://www.nimo.tv/live/123456</embed>
-    <channel>https://www.nimo.tv/ggnimo</channel>
-    <description>Mobile Legends canlı yayınları her akşam</description>
   </stream>
 
   <stream platform="Trovo" category="Sandbox">
