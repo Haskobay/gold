@@ -1,47 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <streams updated="2025-10-20">
-
-  <!-- YouTube canlı embed -->
   <stream platform="YouTube" live="true" category="FPS">
     <title>Valorant Turnuvası - Canlı Yayın</title>
     <streamer>AlphaGamerTR</streamer>
     <thumbnail>https://img.youtube.com/vi/abcd1234/hqdefault.jpg</thumbnail>
-    <!-- Canlı embed -->
     <embed>https://www.youtube.com/embed/live_stream?channel=UC1234567890ABCDE</embed>
-    <!-- Kanal sayfası -->
     <channel>https://www.youtube.com/channel/UC1234567890ABCDE</channel>
     <description>Rank maçları ve sohbet! Katılmak isteyenler için Discord linki profilde.</description>
   </stream>
 
-  <!-- YouTube kanal linki (offline veya genel kanal tanıtımı) -->
-  <stream platform="YouTube" live="true" category="Variety">
+  <stream platform="YouTube" live="false" category="Variety">
     <title>AlphaGamerTR Kanal Tanıtımı</title>
     <streamer>AlphaGamerTR</streamer>
     <thumbnail>https://img.youtube.com/vi/efgh5678/hqdefault.jpg</thumbnail>
-    <!-- Embed yok, sadece kanal sayfası -->
-    <embed></embed>
+    <embed/>
     <channel>https://www.youtube.com/channel/UC1234567890ABCDE</channel>
     <description>AlphaGamerTR’in önceki yayınlarının kaydı ve içerik tanıtımı.</description>
   </stream>
 
-  <!-- Twitch -->
   <stream platform="Twitch" live="true" category="Just Chatting">
     <title>Gece Sohbeti + Reaksiyon Yayını</title>
     <streamer>NightOwl</streamer>
     <thumbnail>https://static-cdn.jtvnw.net/previews-ttv/live_user_nightowl-640x360.jpg</thumbnail>
     <embed>https://player.twitch.tv/?channel=nightowl&parent=seninsite.com</embed>
     <channel>https://twitch.tv/nightowl</channel>
-    <description>Gece sohbeti ve müzik keyfi 🎧</description>
+    <description>Gece sohbeti ve müzik keyfi</description>
   </stream>
 
-  <!-- Kick -->
   <stream platform="Kick" live="true" category="IRL">
-    <title>Şehirde canlı yayın!</title>
+    <title>Şehirde Canlı Yayın!</title>
     <streamer>CanliAdam</streamer>
     <thumbnail>https://cdn.kick.com/thumbnails/canliadam.jpg</thumbnail>
     <embed>https://player.kick.com/canliadam</embed>
     <channel>https://kick.com/canliadam</channel>
-    <description>İstanbul sokaklarında canlı yayın 🚶‍♂️</description>
+    <description>İstanbul sokaklarında canlı yayın</description>
   </stream>
 
+  <stream platform="NimoTV" live="true" category="Mobile Gaming">
+    <title>Mobile Legends Rank Push</title>
+    <streamer>GGNimo</streamer>
+    <thumbnail>https://example.com/nimo_thumb.jpg</thumbnail>
+    <embed>https://www.nimo.tv/live/123456</embed>
+    <channel>https://www.nimo.tv/ggnimo</channel>
+    <description>Mobile Legends canlı yayınları her akşam</description>
+  </stream>
+
+  <stream platform="Trovo" live="true" category="Sandbox">
+    <title>Minecraft Adventure</title>
+    <streamer>AquaSoul</streamer>
+    <thumbnail>https://example.com/trovo_thumb.jpg</thumbnail>
+    <embed>https://trovo.live/embed/player?streamer=AquaSoul</embed>
+    <channel>https://trovo.live/AquaSoul</channel>
+    <description>Minecraft maceraları ve yaratıcı oyunlar</description>
+  </stream>
+
+  <stream platform="DLive" live="true" category="Strategy">
+    <title>Civilization VI Maraton</title>
+    <streamer>StrategyKing</streamer>
+    <thumbnail>https://example.com/dlive_thumb.jpg</thumbnail>
+    <embed>https://dlive.tv/embed/StrategyKing</embed>
+    <channel>https://dlive.tv/StrategyKing</channel>
+    <description>Strateji oyunları için Civilization VI maratonu</description>
+  </stream>
 </streams>
