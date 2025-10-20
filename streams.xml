@@ -1,47 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<streams>
-  <stream platform="YouTube" category="FPS">
-    <title>BeinsportsHaber - Canlı Yayın</title>
-    <streamer>AlphaGamerTR</streamer>
-    <thumbnail>https://img.youtube.com/vi/abcd1234/hqdefault.jpg</thumbnail>
-    <embed></embed>
-    <channel>https://www.youtube.com/channel/UCPe9vNjHF1kEExT5kHwc7aw</channel>
-    <description>Rank maçları &amp; sohbet!</description>
-  </stream>
+<videolar>
+  
+  <video
+    title="Doğa Belgeseli"
+    src="https://www.youtube.com/watch?v=f0xEeMszr4M"
+    type="youtube"
+    genre="IRL"
+    desc="Muhteşem doğa görüntüleriyle dolu kısa bir belgesel."
+    poster="https://img.youtube.com/vi/abc123XYZ/hqdefault.jpg" />
 
-  <stream platform="Twitch" category="Just Chatting">
-    <title>Gece Sohbeti</title>
-    <streamer>NightOwl</streamer>
-    <thumbnail>https://static-cdn.jtvnw.net/previews-ttv/live_user_nightowl-640x360.jpg</thumbnail>
-    <embed></embed>
-    <channel>https://twitch.tv/timurlengx</channel>
-    <description>Gece sohbeti &amp; müzik keyfi</description>
-  </stream>
+  <video
+    title="Teknoloji Canlı Yayını"
+    src="https://www.twitch.tv/timurlengx"
+    type="twitch"
+    genre="FPS"
+    desc="Her hafta canlı olarak teknoloji sohbetleri."
+    poster="https://static-cdn.jtvnw.net/jtv_user_pictures/teknette-profile_image.png" />
 
-  <stream platform="Kick" category="IRL">
-    <title>Şehirde Canlı Yayın!</title>
-    <streamer>CanliAdam</streamer>
-    <thumbnail>https://cdn.kick.com/thumbnails/canliadam.jpg</thumbnail>
-    <embed></embed>
-    <channel>https://kick.com/hype</channel>
-    <description>İstanbul sokaklarında canlı yayın</description>
-  </stream>
+  <video
+    title="Kick Canlı Oyun Yayını"
+    src="https://kick.com/Eray"
+    type="kick"
+    genre="IRL"
+    desc="Popüler yayıncıdan canlı oyun keyfi!"
+    poster="https://cdn.site.com/poster/kick_channel.jpg" />
 
-  <stream platform="YouTube" category="Sandbox">
-    <title>Minecraft Adventure</title>
-    <streamer>AquaSoul</streamer>
-    <thumbnail>https://example.com/trovo_thumb.jpg</thumbnail>
-    <embed></embed>
-    <channel>https://www.youtube.com/watch?v=qyZcG45IoLs</channel>
-    <description>Minecraft maceraları &amp; yaratıcı oyunlar</description>
-  </stream>
+  <video
+    title="Kısa Film: Geri Dönüş"
+    src="https://cdn.example.com/videos/shortfilm/playlist.m3u8"
+    type="m3u8"
+    genre="MOBA"
+    desc="Duygusal kısa film — umut ve ikinci şans üzerine."
+    poster="https://cdn.example.com/poster/shortfilm.jpg" />
 
-  <stream platform="DLive" category="Strategy">
-    <title>Civilization VI Maraton</title>
-    <streamer>StrategyKing</streamer>
-    <thumbnail>https://example.com/dlive_thumb.jpg</thumbnail>
-    <embed></embed>
-    <channel>https://dlive.tv/StrategyKing</channel>
-    <description>Strateji oyunları için Civilization VI maratonu</description>
-  </stream>
-</streams>
+  <video
+    title="Komedi Skeç"
+    src="https://www.youtube.com/channel/UCPe9vNjHF1kEExT5kHwc7aw"
+    type="youtube"
+    genre="Mobile"
+    desc="Gülmek garanti! Popüler komedi ekibinden yeni skeç."
+    poster="https://img.youtube.com/vi/ZYX987def/hqdefault.jpg" />
+
+</videolar>
+
