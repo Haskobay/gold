@@ -4,7 +4,7 @@
     <title>Valorant Turnuvası - Canlı Yayın</title>
     <streamer>AlphaGamerTR</streamer>
     <thumbnail>https://img.youtube.com/vi/abcd1234/hqdefault.jpg</thumbnail>
-    <embed>https://www.youtube.com/embed/live_stream?channel=UC1234567890ABCDE</embed>
+    <embed></embed>
     <channel>https://www.youtube.com/channel/UC1234567890ABCDE</channel>
     <description>Rank maçları &amp; sohbet!</description>
   </stream>
@@ -13,7 +13,7 @@
     <title>Gece Sohbeti</title>
     <streamer>NightOwl</streamer>
     <thumbnail>https://static-cdn.jtvnw.net/previews-ttv/live_user_nightowl-640x360.jpg</thumbnail>
-    <embed>https://player.twitch.tv/?channel=nightowl&parent=seninsite.com</embed>
+    <embed></embed>
     <channel>https://twitch.tv/nightowl</channel>
     <description>Gece sohbeti &amp; müzik keyfi</description>
   </stream>
@@ -22,7 +22,7 @@
     <title>Şehirde Canlı Yayın!</title>
     <streamer>CanliAdam</streamer>
     <thumbnail>https://cdn.kick.com/thumbnails/canliadam.jpg</thumbnail>
-    <embed>https://kick.com/embed/live/canliadam</embed>
+    <embed></embed>
     <channel>https://kick.com/canliadam</channel>
     <description>İstanbul sokaklarında canlı yayın</description>
   </stream>
@@ -31,7 +31,7 @@
     <title>Minecraft Adventure</title>
     <streamer>AquaSoul</streamer>
     <thumbnail>https://example.com/trovo_thumb.jpg</thumbnail>
-    <embed>https://trovo.live/embed/player?streamer=AquaSoul</embed>
+    <embed></embed>
     <channel>https://trovo.live/AquaSoul</channel>
     <description>Minecraft maceraları &amp; yaratıcı oyunlar</description>
   </stream>
@@ -40,7 +40,7 @@
     <title>Civilization VI Maraton</title>
     <streamer>StrategyKing</streamer>
     <thumbnail>https://example.com/dlive_thumb.jpg</thumbnail>
-    <embed>https://dlive.tv/embed/StrategyKing</embed>
+    <embed></embed>
     <channel>https://dlive.tv/StrategyKing</channel>
     <description>Strateji oyunları için Civilization VI maratonu</description>
   </stream>
