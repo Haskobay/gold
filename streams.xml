@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <streams>
   <stream platform="YouTube" category="FPS">
-    <title>Valorant Turnuvası - Canlı Yayın</title>
+    <title>BeinsportsHaber - Canlı Yayın</title>
     <streamer>AlphaGamerTR</streamer>
     <thumbnail>https://img.youtube.com/vi/abcd1234/hqdefault.jpg</thumbnail>
     <embed></embed>
-    <channel>https://www.youtube.com/channel/UC1234567890ABCDE</channel>
+    <channel>https://www.youtube.com/channel/UCPe9vNjHF1kEExT5kHwc7aw</channel>
     <description>Rank maçları &amp; sohbet!</description>
   </stream>
 
@@ -14,7 +14,7 @@
     <streamer>NightOwl</streamer>
     <thumbnail>https://static-cdn.jtvnw.net/previews-ttv/live_user_nightowl-640x360.jpg</thumbnail>
     <embed></embed>
-    <channel>https://twitch.tv/nightowl</channel>
+    <channel>https://twitch.tv/timurlengx</channel>
     <description>Gece sohbeti &amp; müzik keyfi</description>
   </stream>
 
@@ -23,16 +23,16 @@
     <streamer>CanliAdam</streamer>
     <thumbnail>https://cdn.kick.com/thumbnails/canliadam.jpg</thumbnail>
     <embed></embed>
-    <channel>https://kick.com/canliadam</channel>
+    <channel>https://kick.com/hype</channel>
     <description>İstanbul sokaklarında canlı yayın</description>
   </stream>
 
-  <stream platform="Trovo" category="Sandbox">
+  <stream platform="YouTube" category="Sandbox">
     <title>Minecraft Adventure</title>
     <streamer>AquaSoul</streamer>
     <thumbnail>https://example.com/trovo_thumb.jpg</thumbnail>
     <embed></embed>
-    <channel>https://trovo.live/AquaSoul</channel>
+    <channel>https://www.youtube.com/watch?v=qyZcG45IoLs</channel>
     <description>Minecraft maceraları &amp; yaratıcı oyunlar</description>
   </stream>
 
