@@ -1,58 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <streams>
+    <!-- YouTube Kanalı - UC9iME25kp7TP1j9WW0fva3w -->
     <stream>
         <id>1</id>
         <platform>youtube</platform>
-        <title>Minecraft 24/7 Canlı Yayın</title>
-        <channel>GamingLive</channel>
-        <description>24 saat Minecraft oyun yayını</description>
+        <title>Kanal 1 - Canlı Yayın 1</title>
+        <channel>UC9iME25kp7TP1j9WW0fva3w</channel>
+        <description>Kanal 1'in canlı yayını</description>
         <thumbnail>https://img.youtube.com/vi/jNQXAC9IVRw/maxresdefault.jpg</thumbnail>
         <url>https://www.youtube.com/watch?v=jNQXAC9IVRw</url>
         <embed_url>https://www.youtube.com/embed/jNQXAC9IVRw</embed_url>
         <is_live>true</is_live>
-        <viewers>1250</viewers>
+        <viewers>1500</viewers>
         <category>Gaming</category>
     </stream>
-    
+
     <stream>
         <id>2</id>
-        <platform>twitch</platform>
-        <title>Shroud - Valorant Ranked</title>
-        <channel>shroud</channel>
-        <description>Valorant competitive gameplay</description>
-        <thumbnail>https://static-cdn.jtvnw.net/previews-ttv/live_user_shroud-320x180.jpg</thumbnail>
-        <url>https://www.twitch.tv/shroud</url>
-        <embed_url>https://player.twitch.tv/?channel=shroud</embed_url>
-        <is_live>true</is_live>
-        <viewers>25400</viewers>
-        <category>FPS</category>
-    </stream>
-    
-    <stream>
-        <id>3</id>
-        <platform>kick</platform>
-        <title>xQc Reacts to Videos</title>
-        <channel>xqc</channel>
-        <description>Reacting to funny videos</description>
-        <thumbnail>https://kick.com/api/v1/channels/xqc/thumbnail</thumbnail>
-        <url>https://kick.com/xqc</url>
-        <embed_url>https://player.kick.com/xqc</embed_url>
-        <is_live>true</is_live>
-        <viewers>15200</viewers>
-        <category>Just Chatting</category>
-    </stream>
-    
-    <stream>
-        <id>4</id>
         <platform>youtube</platform>
-        <title>CS2 Tournament Live</title>
-        <channel>ESL</channel>
-        <description>CS2 Championship Finals</description>
+        <title>Kanal 1 - Canlı Yayın 2</title>
+        <channel>UC9iME25kp7TP1j9WW0fva3w</channel>
+        <description>Kanal 1'in ikinci canlı yayını</description>
         <thumbnail>https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg</thumbnail>
         <url>https://www.youtube.com/watch?v=dQw4w9WgXcQ</url>
         <embed_url>https://www.youtube.com/embed/dQw4w9WgXcQ</embed_url>
         <is_live>true</is_live>
-        <viewers>8900</viewers>
-        <category>Esports</category>
+        <viewers>800</viewers>
+        <category>Music</category>
+    </stream>
+
+    <!-- Twitch Kanalı -->
+    <stream>
+        <id>3</id>
+        <platform>twitch</platform>
+        <title>Twitch Canlı Yayın</title>
+        <channel>shroud</channel>
+        <description>Twitch'te canlı oyun yayını</description>
+        <thumbnail>https://static-cdn.jtvnw.net/previews-ttv/live_user_shroud-320x180.jpg</thumbnail>
+        <url>https://www.twitch.tv/shroud</url>
+        <embed_url>https://player.twitch.tv/?channel=shroud</embed_url>
+        <is_live>true</is_live>
+        <viewers>25000</viewers>
+        <category>FPS</category>
+    </stream>
+
+    <!-- Kick Kanalı -->
+    <stream>
+        <id>4</id>
+        <platform>kick</platform>
+        <title>Kick Canlı Yayın</title>
+        <channel>xqc</channel>
+        <description>Kick'te canlı sohbet</description>
+        <thumbnail>https://kick.com/api/v1/channels/xqc/thumbnail</thumbnail>
+        <url>https://kick.com/xqc</url>
+        <embed_url>https://player.kick.com/xqc</embed_url>
+        <is_live>true</is_live>
+        <viewers>12000</viewers>
+        <category>Just Chatting</category>
     </stream>
 </streams>
