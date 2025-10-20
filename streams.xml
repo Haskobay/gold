@@ -7,7 +7,7 @@
     type="youtube"
     genre="IRL"
     desc="Muhteşem doğa görüntüleriyle dolu kısa bir belgesel."
-    poster="https://img.youtube.com/vi/abc123XYZ/hqdefault.jpg" />
+    poster="https://img.youtube.com/vi/Jzdm3ZZLq4c/hqdefault.jpg" />
 
   <video
     title="Teknoloji Canlı Yayını"
@@ -15,7 +15,7 @@
     type="twitch"
     genre="FPS"
     desc="Her hafta canlı olarak teknoloji sohbetleri."
-    poster="https://static-cdn.jtvnw.net/jtv_user_pictures/teknette-profile_image.png" />
+    poster="https://img.youtube.com/vi/Jzdm3ZZLq4c/hqdefault.jpg" />
 
   <video
     title="Kick Canlı Oyun Yayını"
@@ -23,7 +23,7 @@
     type="kick"
     genre="IRL"
     desc="Popüler yayıncıdan canlı oyun keyfi!"
-    poster="https://cdn.site.com/poster/kick_channel.jpg" />
+    poster="https://img.youtube.com/vi/Jzdm3ZZLq4c/hqdefault.jpg" />
 
   <video
     title="Kısa Film: Geri Dönüş"
@@ -31,15 +31,15 @@
     type="m3u8"
     genre="MOBA"
     desc="Duygusal kısa film — umut ve ikinci şans üzerine."
-    poster="https://cdn.example.com/poster/shortfilm.jpg" />
+    poster="https://img.youtube.com/vi/Jzdm3ZZLq4c/hqdefault.jpg" />
 
   <video
     title="Komedi Skeç"
-    src="https://www.youtube.com/channel/UCPe9vNjHF1kEExT5kHwc7aw"
+    src="https://www.youtube.com/watch?v=Jzdm3ZZLq4c"
     type="youtube"
     genre="Mobile"
     desc="Gülmek garanti! Popüler komedi ekibinden yeni skeç."
-    poster="https://img.youtube.com/vi/ZYX987def/hqdefault.jpg" />
+    poster="https://img.youtube.com/vi/Jzdm3ZZLq4c/hqdefault.jpg" />
 
 </videolar>
 
