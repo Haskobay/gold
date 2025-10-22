@@ -1,0 +1,18 @@
+<channels>
+  <channel>
+    <name>Facebook Canlı</name>
+    <type>facebook</type>
+    <src>https://www.facebook.com/DooM49/videos/750744124678762/</src>
+    <logo>facebook.png</logo>
+    <author>DooM49</author>
+    <description>Bugünkü canlı yayınımız...</description>
+  </channel>
+  <channel>
+    <name>YouTube Canlı</name>
+    <type>youtube</type>
+    <src>UCxxxxxxxxx</src>
+    <logo>youtube.png</logo>
+    <author>Yayıncı Adı</author>
+    <description>Yayın açıklaması buraya gelecek.</description>
+  </channel>
+</channels>
