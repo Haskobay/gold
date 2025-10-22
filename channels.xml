@@ -1,12 +1,14 @@
 <channels>
+  <!-- Canlı Yayın Platformları -->
   <channel>
     <name>Facebook Canlı</name>
     <type>facebook</type>
     <src>https://www.facebook.com/DooM49/videos/750744124678762/</src>
     <logo>facebook.png</logo>
     <author>DooM49</author>
-    <description>Bugünkü canlı yayınımız...</description>
+    <description>Bugünkü Facebook canlı yayını.</description>
   </channel>
+
   <channel>
     <name>YouTube Canlı</name>
     <type>youtube</type>
@@ -14,5 +16,78 @@
     <logo>youtube.png</logo>
     <author>Yayıncı Adı</author>
     <description>Yayın açıklaması buraya gelecek.</description>
+  </channel>
+
+  <channel>
+    <name>Kick Canlı</name>
+    <type>kick</type>
+    <src>kullaniciAdi</src>
+    <logo>kick.png</logo>
+    <author>Kick Yayıncı</author>
+    <description>Kick platformunda canlı yayınımız.</description>
+  </channel>
+
+  <channel>
+    <name>Nimo Canlı</name>
+    <type>nimo</type>
+    <src>kullaniciAdi</src>
+    <logo>nimo.png</logo>
+    <author>Nimo Yayıncı</author>
+    <description>Nimo platformunda canlı yayınımız.</description>
+  </channel>
+
+  <channel>
+    <name>Twitch Canlı</name>
+    <type>twitch</type>
+    <src>twitchKanalAdi</src>
+    <logo>twitch.png</logo>
+    <author>Twitch Yayıncı</author>
+    <description>Twitch canlı yayınımız.</description>
+  </channel>
+
+  <channel>
+    <name>Dailymotion Video</name>
+    <type>dailymotion</type>
+    <src>x8p5u0u</src>
+    <logo>dailymotion.png</logo>
+    <author>Dailymotion Yayıncı</author>
+    <description>Dailymotion video örneği.</description>
+  </channel>
+
+  <!-- Dosya Formatları -->
+  <channel>
+    <name>Örnek MP3</name>
+    <type>file</type>
+    <src>https://example.com/audio.mp3</src>
+    <logo>mp3.png</logo>
+    <author>MP3 Yayıncı</author>
+    <description>MP3 ses dosyası örneği.</description>
+  </channel>
+
+  <channel>
+    <name>Örnek MP4</name>
+    <type>file</type>
+    <src>https://example.com/video.mp4</src>
+    <logo>mp4.png</logo>
+    <author>MP4 Yayıncı</author>
+    <description>MP4 video dosyası örneği.</description>
+  </channel>
+
+  <channel>
+    <name>Örnek MKV</name>
+    <type>file</type>
+    <src>https://example.com/video.mkv</src>
+    <logo>mkv.png</logo>
+    <author>MKV Yayıncı</author>
+    <description>MKV video dosyası örneği.</description>
+  </channel>
+
+  <channel>
+    <name>Örnek M3U8</name>
+    <type>file</type>
+    <src>https://example.com/playlist.m3u8</src>
+    <logo>hls.png</logo>
+    <author>M3U8 Yayıncı</author>
+    <description>M3U8 canlı/stream playlist örneği.</description>
   </channel>
 </channels>
