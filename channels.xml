@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <channels>
   <!-- Canlı Yayın Platformları -->
   <channel>
     <name>Facebook Canlı</name>
     <type>facebook</type>
     <src>https://www.facebook.com/DooM49/videos/750744124678762/</src>
-    <logo>facebook.png</logo>
+    <logo>kick.png</logo>
     <author>DooM49</author>
     <description>Bugünkü Facebook canlı yayını.</description>
   </channel>
@@ -12,8 +13,8 @@
   <channel>
     <name>YouTube Canlı</name>
     <type>youtube</type>
-    <src>UC0uWI6Z5gX-n9lRRk6y-H6w</src>
-    <logo>youtube.png</logo>
+    <src>UCN2Q-lSzQa7RjrCxQZ8DzbA</src>
+    <logo>kick.png</logo>
     <author>Yayıncı Adı</author>
     <description>Yayın açıklaması buraya gelecek.</description>
   </channel>
@@ -31,7 +32,7 @@
     <name>Nimo Canlı</name>
     <type>nimo</type>
     <src>nimotv</src>
-    <logo>nimo.png</logo>
+    <logo>kick.png</logo>
     <author>Nimo Yayıncı</author>
     <description>Nimo platformunda canlı yayınımız.</description>
   </channel>
