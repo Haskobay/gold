@@ -12,7 +12,7 @@
   <channel>
     <name>YouTube Canlı</name>
     <type>youtube</type>
-    <src>UCxxxxxxxxx</src>
+    <src>UC0uWI6Z5gX-n9lRRk6y-H6w</src>
     <logo>youtube.png</logo>
     <author>Yayıncı Adı</author>
     <description>Yayın açıklaması buraya gelecek.</description>
@@ -21,7 +21,7 @@
   <channel>
     <name>Kick Canlı</name>
     <type>kick</type>
-    <src>kullaniciAdi</src>
+    <src>baska-tv</src>
     <logo>kick.png</logo>
     <author>Kick Yayıncı</author>
     <description>Kick platformunda canlı yayınımız.</description>
@@ -30,7 +30,7 @@
   <channel>
     <name>Nimo Canlı</name>
     <type>nimo</type>
-    <src>kullaniciAdi</src>
+    <src>nimotv</src>
     <logo>nimo.png</logo>
     <author>Nimo Yayıncı</author>
     <description>Nimo platformunda canlı yayınımız.</description>
@@ -39,7 +39,7 @@
   <channel>
     <name>Twitch Canlı</name>
     <type>twitch</type>
-    <src>twitchKanalAdi</src>
+    <src>tenekekafalar</src>
     <logo>twitch.png</logo>
     <author>Twitch Yayıncı</author>
     <description>Twitch canlı yayınımız.</description>
@@ -58,7 +58,7 @@
   <channel>
     <name>Örnek MP3</name>
     <type>file</type>
-    <src>https://example.com/audio.mp3</src>
+    <src>https://icecast.netmedya.net/kupefm</src>
     <logo>mp3.png</logo>
     <author>MP3 Yayıncı</author>
     <description>MP3 ses dosyası örneği.</description>
@@ -83,11 +83,12 @@
   </channel>
 
   <channel>
-    <name>Örnek M3U8</name>
+    <name>EdirneTV M3U8</name>
     <type>file</type>
-    <src>https://example.com/playlist.m3u8</src>
+    <src>https://yayin.edirnetv.com:8088/hls/etvcanliyayin.m3u8</src>
     <logo>hls.png</logo>
     <author>M3U8 Yayıncı</author>
     <description>M3U8 canlı/stream playlist örneği.</description>
   </channel>
 </channels>
+
