@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <medias>
-    <media>
+<media>
+        <title>Elifiniz</title>
+        <thumb>https://img.youtube.com/vi/Pq7ndgZHjjE/0.jpg</thumb>
+        <type>tiktok</type>
+        <src>@elifinizz07/video/7540696882113268993</src>
+    </media>
+<media>
+        <title>Elifiniz</title>
+        <thumb>https://img.youtube.com/vi/Pq7ndgZHjjE/0.jpg</thumb>
+        <type>tiktok</type>
+        <src>@kaon_58/video/7512791401621409031</src>
+    </media>
+ <media>
         <title>ARZU FİLM</title>
         <thumb>https://img.youtube.com/vi/Pq7ndgZHjjE/0.jpg</thumb>
         <type>youtube</type>
