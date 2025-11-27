@@ -5,6 +5,7 @@ scripts/fetch_live_to_repo.py
 YouTube kanallarını kontrol eder; eğer canlı yayın varsa repo çalışma dizinine
 media.xml (root: <mediaList>) dosyası olarak yazar.
 
+Güncelleme: Bu sürüm YouTube handle formatlarını (/@handle veya @handle) destekler.
 Kullanım (Action içinden çalıştırılacak veya yerelde test etmek için):
 - YOUTUBE_API_KEY ortam değişkeni olmalı (repo secret olarak eklenir)
 - channels.txt aynı dizinde olmalı
@@ -30,15 +31,38 @@ def call_api(path, params):
     return r.json()
 
 def extract_from_url(line):
+    """
+    Desteklenen formatlar:
+    - https://www.youtube.com/channel/UC...
+    - https://www.youtube.com/user/username
+    - https://www.youtube.com/c/customname
+    - https://www.youtube.com/@handle
+    - @handle
+    - doğrudan channelId (UC...)
+    - serbest arama terimi (unknown)
+    """
     line = line.strip()
     if not line:
         return None, None
+
+    # doğrudan handle (başında @)
+    if line.startswith('@'):
+        return 'handle', line
+
+    # URL parse et
     try:
         parsed = urlparse(line)
     except Exception:
         parsed = None
+
     if parsed and parsed.netloc and "youtube.com" in parsed.netloc:
-        parts = parsed.path.split('/')
+        # path örnekleri: /channel/UC..., /user/username, /c/custom, /@handle, /watch?v=...
+        path = parsed.path or ''
+        parts = [p for p in path.split('/') if p]
+        if path.startswith('/@'):
+            # /@handle
+            handle = path.lstrip('/')
+            return 'handle', handle if handle.startswith('@') else '@' + handle
         if 'channel' in parts:
             idx = parts.index('channel')
             if idx + 1 < len(parts):
@@ -51,28 +75,73 @@ def extract_from_url(line):
             idx = parts.index('c')
             if idx + 1 < len(parts):
                 return 'custom', parts[idx + 1]
+
+        # bazen URL doğrudan kullanıcı ismi verebilir: youtube.com/SomeName
+        if len(parts) == 1:
+            # tek parça varsa bunu custom/user/handle gibi ele al
+            p = parts[0]
+            if p.startswith('@'):
+                return 'handle', p
+            # fall back to unknown (arama)
+            return 'unknown', p
+
+    # doğrudan channelId (UC ile başlıyorsa)
     if line.startswith('UC'):
         return 'channelId', line
+
+    # handle satır olarak (örnek: @bloomberght)
+    if line.startswith('youtube.com/@') or line.startswith('www.youtube.com/@'):
+        # User input muhtemelen URL biçiminde olmalı ama parse edilemediyse fallback
+        token = line.split('/')[-1]
+        if token.startswith('@'):
+            return 'handle', token
+
+    # fallback: arama terimi / bilinmeyen
     return 'unknown', line
 
 def resolve_channel_id(token_type, token):
+    """
+    token_type: 'channelId', 'userName', 'custom', 'handle', 'unknown'
+    Döndürür: channelId veya None
+    """
     try:
         if token_type == 'channelId':
             return token
+
         if token_type == 'userName':
             resp = call_api('channels', {'part': 'id', 'forUsername': token})
             items = resp.get('items') or []
             if items:
                 return items[0]['id']
             return None
+
+        if token_type == 'handle':
+            # token bir handle: '@bloomberght' veya ' @...' gibi
+            handle = token.lstrip('@')
+            # önce handle ile arama dene (bazı sonuçlar doğrudan handle ile bulunur)
+            resp = call_api('search', {'part': 'snippet', 'q': f"@{handle}", 'type': 'channel', 'maxResults': 3})
+            items = resp.get('items') or []
+            if items:
+                return items[0]['snippet'].get('channelId')
+            # handle olmadan tekrar dene (yalnızca isim)
+            resp = call_api('search', {'part': 'snippet', 'q': handle, 'type': 'channel', 'maxResults': 3})
+            items = resp.get('items') or []
+            if items:
+                return items[0]['snippet'].get('channelId')
+            return None
+
         if token_type in ('custom', 'unknown'):
+            # custom veya bilinmeyen için search ile kanal ara
             resp = call_api('search', {'part': 'snippet', 'q': token, 'type': 'channel', 'maxResults': 1})
             items = resp.get('items') or []
             if items:
-                return items[0]['snippet']['channelId']
+                return items[0]['snippet'].get('channelId')
             return None
+    except requests.HTTPError as e:
+        print(f"API hata (resolve {token}): {e}")
+        return None
     except Exception as e:
-        print("Hata (resolve):", e)
+        print(f"Beklenmeyen hata (resolve {token}): {e}")
         return None
 
 def find_live_videos_for_channel(channel_id):
@@ -105,7 +174,6 @@ def build_media_xml(entries):
             ET.SubElement(m, 'thumb').text = f"https://img.youtube.com/vi/{v.get('videoId','')}/0.jpg"
             ET.SubElement(m, 'type').text = "youtube"
             ET.SubElement(m, 'src').text = v.get('videoId','')
-    # pretty-printing (basic)
     indent(root)
     return ET.tostring(root, encoding='utf-8', method='xml')
 
@@ -143,6 +211,7 @@ def main():
         token_type, token = extract_from_url(line)
         if token is None:
             continue
+        print(f"Çözümleme: '{line}' -> tip={token_type}, token={token}")
         channel_id = resolve_channel_id(token_type, token)
         if not channel_id:
             print(f"Channel ID bulunamadı: {line}")
