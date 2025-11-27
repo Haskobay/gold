@@ -1,2 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<medias></medias>
+<mediaList>
+  <media>
+    <title>Özgür Özel, Kılıçdaroğlu&amp;#39;na Patladı: ÜZDÜN! | CANLI HABER</title>
+    <thumb>https://img.youtube.com/vi/bwW01rdJY7g/0.jpg</thumb>
+    <type>youtube</type>
+    <src>bwW01rdJY7g</src>
+  </media><media>
+    <title>CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER</title>
+    <thumb>https://img.youtube.com/vi/6N8_r2uwLEc/0.jpg</thumb>
+    <type>youtube</type>
+    <src>6N8_r2uwLEc</src>
+  </media><media>
+    <title>Papa&amp;#39;nın Uçağı İstanbul&amp;#39;a İndi! | CANLI HABER</title>
+    <thumb>https://img.youtube.com/vi/AAvysj0UOvE/0.jpg</thumb>
+    <type>youtube</type>
+    <src>AAvysj0UOvE</src>
+  </media><media>
+    <title>LIVE: Latest News Headlines and Events From All Over the World</title>
+    <thumb>https://img.youtube.com/vi/gMWls8NtaNo/0.jpg</thumb>
+    <type>youtube</type>
+    <src>gMWls8NtaNo</src>
+  </media><media>
+    <title>Kral FM - Canlı Radyo Dinle  • İlaç gibi Radyo • | Online Radyo Dinle | Kralmuzik.com</title>
+    <thumb>https://img.youtube.com/vi/A49bKX8gb-8/0.jpg</thumb>
+    <type>youtube</type>
+    <src>A49bKX8gb-8</src>
+  </media><media>
+    <title>Kral Pop Radyo - Canlı Radyo Dinle • Popun Kralı  • | Online Radyo Dinle | Kralmuzik.com</title>
+    <thumb>https://img.youtube.com/vi/5J-w9AHKHsc/0.jpg</thumb>
+    <type>youtube</type>
+    <src>5J-w9AHKHsc</src>
+  </media><media>
+    <title>Kral Pop TV - Canlı Yayın | Kralmuzik.com |</title>
+    <thumb>https://img.youtube.com/vi/GuFTuKoXepw/0.jpg</thumb>
+    <type>youtube</type>
+    <src>GuFTuKoXepw</src>
+  </media><media>
+    <title>EKOTÜRK | Canlı</title>
+    <thumb>https://img.youtube.com/vi/PhfG-5iSUMM/0.jpg</thumb>
+    <type>youtube</type>
+    <src>PhfG-5iSUMM</src>
+  </media>
+</mediaList>
