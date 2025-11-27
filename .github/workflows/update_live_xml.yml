@@ -1,4 +1,9 @@
 name: Update media.xml with live YouTube videos
+
+# Buraya yazma iznini ekliyoruz; bu, GITHUB_TOKEN'in workflow sırasında push yapmasına izin verir.
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 */12 * * *'  # her 12 saatte bir
