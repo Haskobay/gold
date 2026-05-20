@@ -30,11 +30,6 @@
     <type>youtube</type>
     <src>x_ruIH2UmjQ</src>
   </media><media>
-    <title>Fryeburg, Maine - 302 West</title>
-    <thumb>https://img.youtube.com/vi/QcNfT_tvkyI/0.jpg</thumb>
-    <type>youtube</type>
-    <src>QcNfT_tvkyI</src>
-  </media><media>
     <title>North Conway, New Hampshire - LIVE CAM</title>
     <thumb>https://img.youtube.com/vi/H8bFFw-0ZQE/0.jpg</thumb>
     <type>youtube</type>
@@ -45,15 +40,20 @@
     <type>youtube</type>
     <src>qA9hUzUslkU</src>
   </media><media>
-    <title>🔴 HEAVY Snow Blizzard City Walk 24/7 ❄️🌨️ Winter Storm in Helsinki Finland 4K February 2025 🔴 SLOWTV</title>
-    <thumb>https://img.youtube.com/vi/V7DRofHmo9o/0.jpg</thumb>
+    <title>Southwest Harbor, Maine - Acadia National Park LIVE</title>
+    <thumb>https://img.youtube.com/vi/6DKkXdjFeeQ/0.jpg</thumb>
     <type>youtube</type>
-    <src>V7DRofHmo9o</src>
+    <src>6DKkXdjFeeQ</src>
   </media><media>
     <title>🔴 SUPER Snow Storm City Walk 24/7 ❄️🌨️ Winter in Finland February  🔴 PRE-RECORDED SLOW TV CITY SOUND</title>
     <thumb>https://img.youtube.com/vi/9h42Y9gHqnI/0.jpg</thumb>
     <type>youtube</type>
     <src>9h42Y9gHqnI</src>
+  </media><media>
+    <title>🔴 HEAVY Snow Blizzard City Walk 24/7 ❄️🌨️ Winter Storm in Helsinki Finland 4K February 2025 🔴 SLOWTV</title>
+    <thumb>https://img.youtube.com/vi/V7DRofHmo9o/0.jpg</thumb>
+    <type>youtube</type>
+    <src>V7DRofHmo9o</src>
   </media><media>
     <title>🔴 HEAVY Snow Blizzard City Walk 24/7 ❄️🌨️ Winter Storm in Helsinki Finland 4K February 2025 🔴 SLOWTV</title>
     <thumb>https://img.youtube.com/vi/JgDu8yQKpwg/0.jpg</thumb>
@@ -79,10 +79,5 @@
     <thumb>https://img.youtube.com/vi/N8Hcmzbbnmw/0.jpg</thumb>
     <type>youtube</type>
     <src>N8Hcmzbbnmw</src>
-  </media><media>
-    <title>Havana Cuba Walking Tour 🇨🇺 | City Streets Loop (Real Street Life)</title>
-    <thumb>https://img.youtube.com/vi/zm4La5OtTVs/0.jpg</thumb>
-    <type>youtube</type>
-    <src>zm4La5OtTVs</src>
   </media>
 </mediaList>
